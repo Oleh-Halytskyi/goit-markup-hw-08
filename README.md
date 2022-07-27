@@ -1,2 +1,3 @@
 # goit-markup-hw-08
-About Repository for HW 7 FSon 58
+
+Repository for HW 8 FSon 58

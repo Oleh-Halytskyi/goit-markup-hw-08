@@ -1,0 +1,44 @@
+.we-doing {
+  display: none;
+  padding-bottom: 86px;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+
+  &__list {
+    --items: 3;
+  }
+
+  &__items {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__desc-pic {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 70px;
+    margin: 0;
+
+<<<<<<< HEAD
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+
+    color: var(--white-clr);
+    background-color: var(--bgc-desc-pic-going);
+  }
+=======
+        color: var(--white-clr);
+        background-color: var(--bgc-desc-pic-going);
+    }
+>>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
+}

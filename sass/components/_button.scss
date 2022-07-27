@@ -1,0 +1,36 @@
+.button {
+    display: flex;
+    padding: 10px 32px;
+    justify-content: center;
+    min-width: 200px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    border-radius: 4px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--white-clr);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: background-color var(--time) var(--cubic);
+    cursor: pointer;
+
+    &__icon 
+    {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+
+        margin-left: 10px;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: var(--background-button-hover);
+    }
+}
+

@@ -1,0 +1,43 @@
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--social-color);
+    border: 1px solid var(--social-color);
+    border-radius: 4px;
+
+    transition: color var(--time) var(--cubic), border-color var(--time) var(--cubic);
+  }
+
+  &__item {
+    flex-basis: 210px;
+    height: 92px;
+
+    @media screen and (min-width: 768px) {
+      flex-basis: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-basis: 170px;
+    }
+  }
+
+  &__icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}

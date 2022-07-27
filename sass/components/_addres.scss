@@ -1,0 +1,34 @@
+.addres {
+  font-style: normal;
+
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+<<<<<<< HEAD
+  &__map {
+    line-height: 1.71;
+    color: var(--white-clr);
+=======
+    &__map {
+        line-height: 1.71;
+        color: var(--white-clr);
+>>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
+
+    transition: color var(--time) var(--cubic);
+  }
+
+  &__contacts {
+    color: var(--address-color-contact);
+    line-height: 1.71;
+
+    transition: color var(--time) var(--cubic);
+  }
+
+  &__map:hover,
+  &__map:focus,
+  &__contacts:hover,
+  &__contacts:focus {
+    color: var(--accent-color);
+  }
+}

@@ -1,0 +1,26 @@
+.agreement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+
+  &__text {
+    display: inline-block;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+
+  &__text--no-select {
+    user-select: none;
+  }
+
+  &-link {
+    color: var(--accent-color);
+  }
+}

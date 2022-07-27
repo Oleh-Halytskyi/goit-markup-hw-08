@@ -1,0 +1,88 @@
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+<<<<<<< HEAD
+  &__button {
+    display: block;
+    padding: 6px 22px;
+
+    font-family: inherit;
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: var(--background-button);
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+
+    transition: background-color var(--time) var(--cubic), color var(--time) var(--cubic),
+      box-shadow var(--time) var(--cubic);
+    cursor: pointer;
+  }
+
+  &__button:hover,
+  &__button:focus {
+    color: var(--white-clr);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__items:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  &__items:first-child {
+    margin-bottom: 15px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+=======
+    &__button {
+            display: block;
+            padding: 6px 22px;
+    
+            font-family: inherit;
+            color: var(--title-color);
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            background-color: var(--background-button);
+            border: none;
+            border-radius: 4px;
+            letter-spacing: 0.03em;
+    
+            transition: background-color var(--time) var(--cubic), color var(--time) var(--cubic),
+                box-shadow var(--time) var(--cubic);
+            cursor: pointer;
+        }
+    
+        &__button:hover,
+        &__button:focus {
+            color: var(--white-clr);
+            background-color: var(--accent-color);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    
+        &__items:not(:last-child) {
+            margin-right: 8px;
+        }
+>>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
+}

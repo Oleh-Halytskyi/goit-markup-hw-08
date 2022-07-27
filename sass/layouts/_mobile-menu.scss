@@ -1,0 +1,119 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100vw;
+  height: 100vh;
+  transform: translateX(110%);
+  transition: transform var(--time) var(--cubic);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 48px 40px;
+
+  background-color: var(--background-white);
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+    margin-left: auto;
+    z-index: 30;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__burger {
+    transition: opacity var(--time) var(--cubic), fill var(--time) var(--cubic);
+  }
+
+  &__btn.is-open &__burger {
+    opacity: 0;
+  }
+
+  &__close {
+    opacity: 0;
+    transition: opacity var(--time) var(--cubic), fill var(--time) var(--cubic);
+  }
+
+  &__btn.is-open &__close {
+    opacity: 1;
+  }
+  &__btn:hover &__burger,
+  &__btn:focus &__burger,
+  &__btn:hover &__close,
+  &__btn:focus &__close {
+    fill: var(--accent-color);
+  }
+
+  &__nav {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: calc(47 / 40);
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+
+    margin-bottom: auto;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  &__current {
+    color: var(--accent-color);
+  }
+
+  &__contact {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    letter-spacing: 0.02em;
+    margin-bottom: 64px;
+  }
+
+  &__contact:not(:last-child) {
+    margin-bottom: 32px;
+    font-size: 34px;
+    line-height: calc(40 / 34);
+    color: var(--accent-color);
+  }
+
+  &__socials {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+  }
+
+  &__social:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}

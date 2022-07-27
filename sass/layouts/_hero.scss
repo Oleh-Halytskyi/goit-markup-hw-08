@@ -1,0 +1,109 @@
+.hero {
+  position: relative;
+
+  padding: 118px 0;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: var(--background-second);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg-image/team-bg_sm.jpg);
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/team-bg_sm@2x.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/team-bg_md.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/bg-image/team-bg_md@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/bg-image/team-bg_lg.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/bg-image/team-bg_lg@2x.jpg);
+    }
+  }
+
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    color: var(--white-clr);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    @media screen and (min-width: 480px) {
+      width: 360px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 696px;
+      font-size: 44px;
+      line-height: 1.36;
+    }
+  }
+
+  &__button {
+    margin-left: auto;
+    margin-right: auto;
+<<<<<<< HEAD
+  }
+=======
+
+    background-color: var(--background-second);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/bg-image/team-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__titel
+     {
+            margin: 0 auto;
+            margin-bottom: 30px;
+            width: 696px;
+    
+            color: var(--white-clr);
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+    
+    &__button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+>>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
+}

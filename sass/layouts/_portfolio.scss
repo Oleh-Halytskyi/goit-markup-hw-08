@@ -1,0 +1,24 @@
+.works__item {
+<<<<<<< HEAD
+  background-color: var(--background-white);
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+  }
+}
+
+.works__item {
+  --items: 1;
+
+  @media screen and (min-width: 768px) {
+    --items: 2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    --items: 3;
+  }
+}
+=======
+    background-color: var(--background-white);
+}
+>>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
