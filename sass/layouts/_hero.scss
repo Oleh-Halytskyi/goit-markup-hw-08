@@ -75,35 +75,5 @@
   &__button {
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
   }
-=======
-
-    background-color: var(--background-second);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/bg-image/team-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    &__titel
-     {
-            margin: 0 auto;
-            margin-bottom: 30px;
-            width: 696px;
-    
-            color: var(--white-clr);
-            font-weight: 900;
-            font-size: 44px;
-            line-height: 1.36;
-            text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-        }
-    
-    &__button {
-        margin-left: auto;
-        margin-right: auto;
-    }
->>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
 }

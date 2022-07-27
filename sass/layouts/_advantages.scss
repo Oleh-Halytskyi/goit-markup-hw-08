@@ -1,5 +1,4 @@
 .advantages {
-<<<<<<< HEAD
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
@@ -57,44 +56,6 @@
     height: 120px;
     margin-bottom: 30px;
 
-=======
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  &__items:not(:last-child) {
-    margin-right: 30px;
-  }
-
-  &__titel {
-    margin: 0;
-    margin-bottom: 10px;
-    max-width: 270px;
-
-    color: var(--title-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
-
-  &__text {
-    margin: 0;
-    max-width: 270px;
-
-    line-height: 1.71;
-  }
-
-  &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-
->>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
     background-color: var(--background-button);
     border-radius: 4px;
   }

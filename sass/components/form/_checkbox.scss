@@ -12,19 +12,11 @@
 }
 
 .checkbox__icon--on {
-<<<<<<< HEAD
   width: 11px;
   height: 8px;
   fill: var(--white-clr);
   opacity: 0;
   transition: opacity var(--time) var(--cubic);
-=======
-    width: 11px;
-    height: 8px;
-    fill: var(--white-clr);
-    opacity: 0;
-    transition: opacity var(--time) var(--cubic);
->>>>>>> f95ecdd0b1d929cc960f090a048fce449f66ed6e
 }
 
 .checkbox__icon--off {
