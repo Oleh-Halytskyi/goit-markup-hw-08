@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   right: 50%;
-  max-width: 450px;
+  width: calc(100vw - 30px);
   height: 609px;
 
   transform: translate(50%, -50%);

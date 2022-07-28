@@ -719,6 +719,8 @@ body {
       -ms-flex-pack: start;
           justify-content: start;
   margin-bottom: 40px;
+  gap: 8px;
+  row-gap: 15px;
 }
 @media screen and (min-width: 768px) {
   .filter {
@@ -760,17 +762,6 @@ body {
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.filter__items:not(:last-child) {
-  margin-right: 8px;
-}
-.filter__items:first-child {
-  margin-bottom: 15px;
-}
-@media screen and (min-width: 768px) {
-  .filter__items:first-child {
-    margin-bottom: 0;
-  }
 }
 
 .backdrop {
@@ -1386,7 +1377,7 @@ body {
   position: absolute;
   top: 50%;
   right: 50%;
-  max-width: 450px;
+  width: calc(100vw - 30px);
   height: 609px;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
@@ -1613,6 +1604,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
   color: var(--social-color);
   border: 1px solid var(--social-color);
   border-radius: 4px;
