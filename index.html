@@ -21,7 +21,7 @@
           ><span class="logo--accent">Web</span>Studio</a
         >
 
-        <button class="mobile-menu__btn" type="button" data-menu-button>
+        <button class="mobile-menu__btn" aria-label="Кнопка меню" type="button" data-menu-button>
           <svg class="mobile-menu__icon" width="24" height="16">
             <use
               class="mobile-menu__burger"
@@ -113,7 +113,12 @@
         Modal
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="close-btn" type="button" data-modal-close>
+            <button
+              class="close-btn"
+              aria-label="Кнопка закрытия меню заказа"
+              type="button"
+              data-modal-close
+            >
               <svg class="close-btn__icon">
                 <use href="./images/sprite.svg#cros"></use>
               </svg>
@@ -359,7 +364,12 @@
                   "
                   type="image/jpg"
                 />
-                <img src="./images/studio/team/team-1_sm.jpg" alt="Продукт менеджер" width="450" />
+                <img
+                  src="./images/studio/team/team-1_sm.jpg"
+                  alt="Продукт менеджер"
+                  width="450"
+                  height="460"
+                />
               </picture>
 
               <div class="team__card">
@@ -471,7 +481,12 @@
                   "
                   type="image/jpg"
                 />
-                <img src="./images/studio/team/team-2_sm.jpg" alt="Продукт менеджер" width="450" />
+                <img
+                  src="./images/studio/team/team-2_sm.jpg"
+                  alt="Продукт менеджер"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="team__card">
                 <h3 class="team__name">Ольга Репина</h3>
@@ -582,7 +597,12 @@
                   "
                   type="image/jpg"
                 />
-                <img src="./images/studio/team/team-3_sm.jpg" alt="Продукт менеджер" width="450" />
+                <img
+                  src="./images/studio/team/team-3_sm.jpg"
+                  alt="Продукт менеджер"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="team__card">
                 <h3 class="team__name">Николай Тарасов</h3>
@@ -693,7 +713,12 @@
                   "
                   type="image/jpg"
                 />
-                <img src="./images/studio/team/team-4_sm.jpg" alt="Продукт менеджер" width="450" />
+                <img
+                  src="./images/studio/team/team-4_sm.jpg"
+                  alt="Продукт менеджер"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="team__card">
                 <h3 class="team__name">Михаил Ермаков</h3>
@@ -765,42 +790,42 @@
           <h2 class="title-section">Постоянные клиенты</h2>
           <ul class="list client">
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-1" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company1"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-2" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company2"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-3" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company3"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-4" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company4"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-5" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company5"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item">
-              <a class="link client__link" href="#">
+              <a class="link client__link" aria-label="company-6" href="#">
                 <svg class="client__icon">
                   <use href="./images/sprite.svg#company6"></use>
                 </svg>
@@ -912,7 +937,7 @@
                 required
               />
             </label>
-            <button class="button footer_button" type="submit">
+            <button class="button footer__button" type="submit">
               <span class="button__desc">Подписаться</span>
               <svg class="button__icon">
                 <use href="./images/sprite.svg#send"></use>
